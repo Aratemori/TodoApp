@@ -7,16 +7,5 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ],
-  "paths": {
-    "@/*": [
-      "./*"
-    ],
-    "@/src/*": [
-      "./src/*"
-    ],
-    "@/components/*": [
-      "./components/*"
-    ]
-  }
+  ]
 }
