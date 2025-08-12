@@ -1,6 +1,6 @@
 {
-  "name": "todolist",
-  "homepage": "https://github.com/Aratemori/todoApp/",
+  "name": "todoapp",
+  "homepage": "https://Aratemori.github.io/todoApp/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build --no-history"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
